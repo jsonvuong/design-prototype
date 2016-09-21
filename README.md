@@ -17,19 +17,19 @@ Use design-prototype's directives to build and organize groups of UI components 
 
 
 #### Mouseover a layout group to see context menu icon (gear icon).
-![](https://github.com/jsonvuong/design-prototype/tree/master/examples/design-prototype__context-menus.png "menus displayed on hover")
+![](https://jsonvuong.github.io/design-prototype__context-menus.png "menus displayed on hover")
 
 
 #### Mouseover context menu icon to see list of layouts in group.
-![](https://github.com/jsonvuong/design-prototype/tree/master/examples/design-prototype__context-menu.png "context menu")
+![](https://jsonvuong.github.io/design-prototype__context-menu.png "context menu")
 
 
 #### Mouseover main control panel icon to display all layout groups.
-![](https://github.com/jsonvuong/design-prototype/tree/master/examples/design-prototype__control-panel.png "control panel")
+![](https://jsonvuong.github.io/design-prototype__control-panel.png "control panel")
 
 
 #### Sample wireframing options (grayscale and gray image).
-![](https://github.com/jsonvuong/design-prototype/tree/master/examples/design-prototype__wireframe-options.png "Wireframing sample")
+![](https://jsonvuong.github.io/design-prototype__wireframe-options.png "Wireframing sample")
 
 
 
