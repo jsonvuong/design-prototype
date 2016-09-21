@@ -1,0 +1,32 @@
+{
+  "name": "design-prototype",
+  "authors": [
+    "Jason <jsonvuong@gmail.com>"
+  ],
+  "description": "AngularJS module for UI rapid prototyping",
+  "main": "design-prototype.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "design",
+    "prototype",
+    "module",
+    "ui",
+    "rapid",
+    "prototyping",
+    "jason",
+    "vuong",
+    "jsonvuong",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

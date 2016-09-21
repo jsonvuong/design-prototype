@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design Prototype Demo</title>
+    <link rel="stylesheet" href="lib/design-prototype/dist/design-prototype.css">
+    <link rel="stylesheet" href="style/demo.css">
+</head>
+<body ng-app="demo">
+<design-prototype>
+    <div class="container" prototype-toggle-grayscale>
+        <div>
+            <design-layouts group-name="Menu" >
+                <design-layout layout-name="Menu Layout 1">
+                    <div ng-include="'partial-html/menu-1.html'"></div>
+                </design-layout>
+                <design-layout layout-name="Menu Layout 2">
+                    <div ng-include="'partial-html/menu-2.html'"></div>
+                </design-layout>
+            </design-layouts>
+        </div>
+        <div class="form-wrapper">
+            <section class="content bgcolor-4">
+                <img class="content__image" src="img/jsonvuong-img.jpg"/>
+                <design-layouts group-name="Input Boxes" >
+                    <design-layout layout-name="Input Style 1">
+                        <div ng-include="'partial-html/form-layout-1.html'"></div>
+                    </design-layout>
+                    <design-layout layout-name="Input Style 2">
+                        <div ng-include="'partial-html/form-layout-2.html'"></div>
+                    </design-layout>
+                </design-layouts>
+                <div>
+                    <design-layouts group-name="Submit Buttons" >
+                        <design-layout class="full-width" layout-name="Submit 1" layout-toggle-classes="['full-width', 'half-width']">
+                            <div ng-include="'partial-html/button-1.html'"></div>
+                        </design-layout>
+                        <design-layout class="full-width" layout-name="Submit 2" layout-toggle-classes="['full-width', 'half-width']">
+                            <div ng-include="'partial-html/button-2.html'"></div>
+                        </design-layout>
+                        <design-layout class="full-width" layout-name="Submit 3" layout-toggle-classes="['full-width', 'half-width']">
+                            <div ng-include="'partial-html/button-3.html'"></div>
+                        </design-layout>
+                    </design-layouts>
+                </div>
+            </section>
+        </div>
+    </div><!-- /container -->
+</design-prototype>
+<script type="text/javascript" src="lib/angular/angular.js"></script>
+<script type="text/javascript" src="lib/design-prototype/dist/design-prototype.es5.js"></script>
+<script type="text/javascript" src="partial-html/demo-templates.js"></script>
+<script type="text/javascript" src="demo.js"></script>
+</body>
+</html>
