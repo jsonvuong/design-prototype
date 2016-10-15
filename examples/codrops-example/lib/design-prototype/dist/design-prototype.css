@@ -37,39 +37,42 @@
   animation: rotate-360 3s linear infinite;
 }
 .list-item-style {
-  padding: 0px 14px 8px;
+  padding: 0 8px 5px;
   cursor: pointer;
   transition: all .2s;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   text-align: left;
   user-select: none;
+  color: #333;
 }
 .list-item-style:hover {
-  color: #0079c0;
+  color: #3b73af;
 }
 .list-item-style:hover .design-prototype__checkbox:before {
-  color: #0079c0;
+  color: #3b73af;
 }
 .list-item-style.is-selected {
-  background-color: rgba(0, 121, 192, 0.1);
+  background-color: rgba(59, 115, 175, 0.1);
 }
 .design-prototype__checkbox:before {
   font-family: "sans-serif";
   content: '\0025cb';
   display: inline-block;
-  font-size: 25px;
+  font-size: 18px;
   position: relative;
-  top: 3px;
+  top: 1px;
   color: #333;
+  margin-right: 2px;
 }
 .design-prototype__checkbox.is-selected:before {
   content: '\0025cf';
-  color: #0079c0;
+  color: #3b73af;
 }
 .list-title {
   font-weight: 600;
   padding: 5px 20px 5px 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #333333;
 }
 .design-prototype__btn {
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -82,12 +85,12 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 .design-prototype__btn:hover {
-  background-color: rgba(0, 121, 192, 0.1);
-  border-color: rgba(0, 121, 192, 0.5);
-  color: rgba(0, 121, 192, 0.9);
+  background-color: rgba(59, 115, 175, 0.1);
+  border-color: rgba(59, 115, 175, 0.5);
+  color: rgba(59, 115, 175, 0.9);
 }
 .design-prototype__btn.is-selected {
-  background-color: #0079c0;
+  background-color: #3b73af;
   color: #FFF;
 }
 .reset-ul {
@@ -164,26 +167,28 @@
   transition: max-height 0.3s;
 }
 .design-layouts__item {
-  padding: 0px 14px 8px;
+  padding: 0 8px 5px;
   cursor: pointer;
   transition: all .2s;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   text-align: left;
   user-select: none;
+  color: #333;
 }
 .design-layouts__item:hover {
-  color: #0079c0;
+  color: #3b73af;
 }
 .design-layouts__item:hover .design-prototype__checkbox:before {
-  color: #0079c0;
+  color: #3b73af;
 }
 .design-layouts__item.is-selected {
-  background-color: rgba(0, 121, 192, 0.1);
+  background-color: rgba(59, 115, 175, 0.1);
 }
 .design-layouts__list-title {
   font-weight: 600;
   padding: 5px 20px 5px 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #333333;
 }
 .design-layouts__sublist-item {
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -196,12 +201,12 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 .design-layouts__sublist-item:hover {
-  background-color: rgba(0, 121, 192, 0.1);
-  border-color: rgba(0, 121, 192, 0.5);
-  color: rgba(0, 121, 192, 0.9);
+  background-color: rgba(59, 115, 175, 0.1);
+  border-color: rgba(59, 115, 175, 0.5);
+  color: rgba(59, 115, 175, 0.9);
 }
 .design-layouts__sublist-item.is-selected {
-  background-color: #0079c0;
+  background-color: #3b73af;
   color: #FFF;
 }
 /* Components - Control Panel */
@@ -255,7 +260,7 @@
   max-width: 100%;
   z-index: 100000;
   height: 100%;
-  background-color: #F8F8F8;
+  background-color: #FCFCFC;
   overflow: hidden;
   padding: 0px;
   transition: left 0.2s ease-in;
@@ -269,7 +274,7 @@
 }
 .design-prototype-cp__groups {
   background-color: white;
-  border: 1px solid #CDCDCD;
+  border: 1px solid #DCDCDC;
   display: inline-block;
   margin: 0px 0px 10px 10px;
   vertical-align: top;
@@ -278,31 +283,33 @@
   transition: box-shadow 0.3s;
 }
 .design-prototype-cp__groups:hover {
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.18);
 }
 .design-prototype-cp__list-title {
   font-weight: 600;
   padding: 5px 20px 5px 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #333333;
   padding: 8px 14px;
   display: block;
 }
 .design-prototype-cp__layouts-item {
-  padding: 0px 14px 8px;
+  padding: 0 8px 5px;
   cursor: pointer;
   transition: all .2s;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   text-align: left;
   user-select: none;
+  color: #333;
 }
 .design-prototype-cp__layouts-item:hover {
-  color: #0079c0;
+  color: #3b73af;
 }
 .design-prototype-cp__layouts-item:hover .design-prototype__checkbox:before {
-  color: #0079c0;
+  color: #3b73af;
 }
 .design-prototype-cp__layouts-item.is-selected {
-  background-color: rgba(0, 121, 192, 0.1);
+  background-color: rgba(59, 115, 175, 0.1);
 }
 .design-prototype-cp__sublist-item {
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -315,12 +322,12 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 .design-prototype-cp__sublist-item:hover {
-  background-color: rgba(0, 121, 192, 0.1);
-  border-color: rgba(0, 121, 192, 0.5);
-  color: rgba(0, 121, 192, 0.9);
+  background-color: rgba(59, 115, 175, 0.1);
+  border-color: rgba(59, 115, 175, 0.5);
+  color: rgba(59, 115, 175, 0.9);
 }
 .design-prototype-cp__sublist-item.is-selected {
-  background-color: #0079c0;
+  background-color: #3b73af;
   color: #FFF;
 }
 .design-prototype-cp__title-container {
