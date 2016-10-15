@@ -262,7 +262,7 @@
   height: 100%;
   background-color: #FCFCFC;
   overflow: hidden;
-  padding: 0px;
+  padding: 63px 0px 0px;
   transition: left 0.2s ease-in;
   box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.18);
   font-size: 11px;
@@ -333,13 +333,17 @@
 .design-prototype-cp__title-container {
   background-color: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  padding-top: 20px;
+  left: 0;
+  padding-top: 17px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .design-prototype-cp__title {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0;
-  padding: 0 5px 5px 40px;
+  padding: 0 5px 0px 40px;
 }
 .design-prototype-cp__options {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
